@@ -42,19 +42,19 @@ export default function TodoPage() {
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Tulis tugas..."
+            placeholder="Write something..."
             className="flex-1 px-3 py-2 rounded text-white"
           />
           <button
             onClick={addTask}
             className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-medium hover:opacity-90 transition"
           >
-            {edit !== null ? "Simpan" : "Tambah"}
+            {edit !== null ? "Save" : "Add"}
           </button>
         </div>
 
         {tasks.length === 0 ? (
-          <p className="text-gray-400 text-center">Belum ada tugas.</p>
+          <p className="text-gray-400 text-center">There are no assignments yet.</p>
         ) : (
           <ul className="space-y-2">
             {tasks.map((t, i) => (

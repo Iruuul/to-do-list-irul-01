@@ -17,8 +17,7 @@ export default function Home() {
 
   return (
     <main
-      className="min-h-screen text-white flex flex-col items-center justify-center px-6 py-12 relative bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/fotonaruto.jpg')" }}
+      className="min-h-screen text-white flex flex-col items-center justify-center px-6 py-12 relative bg-cover bg-center bg-no-repeat bg-[url('/fotonaruto.jpg')]"
     >
       {/* Overlay biar teks tetap terbaca */}
       <div className="absolute inset-0 bg-black/60 z-0" />
@@ -43,13 +42,13 @@ export default function Home() {
           Hi, I am M. Khoirul Anwar 👋
         </h1>
         <p className="text-gray-300 text-center max-w-md mb-12">
-          Web Developer & Informatics Student who builds modern web applications.
+          Informatics student at Universitas Nahdlatul Ulama Yogyakarta
         </p>
 
         {/* ABOUT */}
         <h2 className="text-2xl font-semibold mb-2 text-center">About Me</h2>
         <p className="text-gray-400 text-center max-w-md mb-12">
-          Passionate in technology, UI/UX, and education. Currently learning Next.js and building LMS platform.
+          have a passion in programming using HTML, CSS, JavaScript, Next.JS, React.JS, besides that I use vercel and github in managing repositories and deployments.
         </p>
 
         {/* SKILLS */}
@@ -75,7 +74,7 @@ export default function Home() {
         {/* CONTACT */}
         <h2 className="text-2xl font-semibold mb-3 text-center">Contact Me</h2>
         <p className="text-gray-400 mb-4 text-center">
-          Let's build something together!
+          Keep Strong Coders!
         </p>
         <div className="flex justify-center">
           <a

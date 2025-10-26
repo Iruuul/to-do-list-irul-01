@@ -12,7 +12,7 @@ export default function projects() {
             <div className="bg-white/10 p-8 rounded-2xl shadow-lg text-center">
             <h2 className="text-2xl font-semibold mb-4">To-Do List App</h2>
             <p className="text-gray-300 mb-6 max-w-md">
-                A simple and intuitive To-Do List application built with Next.js and Tailwind CSS.
+                A simple and interactive To-Do List application built with Next.js and Tailwind CSS. And This Is first project that I made using Next.js framework.
             </p>
             <Link
                 href="/projects/todo"
